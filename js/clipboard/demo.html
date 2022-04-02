@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>示例</title>
+	<script src="lastest/clipboard.min.js"></script>
+</head>
+<body>
+	<input id="foo1" value="这里是文本111">
+	<button class="btn" data-clipboard-target="#foo1">从输入框复制文本</button>
+	<button class="btn" data-clipboard-action="cut" data-clipboard-target="#foo1">从输入框剪切文本</button>
+	<br/>
+	<button class="btn" data-clipboard-text="这里是文本222">从属性复制文本</button>
+	<script>
+		new ClipboardJS('.btn');//必须
+	</script>
+</body> 
+</html>
