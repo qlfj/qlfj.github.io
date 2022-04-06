@@ -12,6 +12,7 @@
 - [bootstrap](https://getbootstrap.com/)
 - [MDUI](https://www.mdui.org/docs/download)
 - [jQuery-UI](https://jqueryui.com/download/)
+- [cssreset](https://cssreset.com/)
 
 ## JS
 
